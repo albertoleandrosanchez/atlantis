@@ -164,5 +164,14 @@ h2{
 }
 
 .contenedor-tab .contenedor-botones button:hover{
-
+background-color: brown;
+}
+.contenedor-tab .tab-content {
+    height: 35%;
+    background-color: gray;
+    color:white;
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    font-size:  22px;
 }
