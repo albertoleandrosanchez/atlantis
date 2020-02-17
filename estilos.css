@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    background-color: khaki;
+    color: black;
+    
+}
+
+ 
+#titulo {
+    display: block;
+    margin: 0px;
+    font-size: 100px;
+    color: violet;
+    background-color: black;
+    font-family: 'Abril Fatface', cursive;
+    mix-blend-mode: multiply;
+}
+
+#contenedor-header{
+    background: url(img/space.gif);
+    background-size: cover;
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    font-size: 110%;
+    font-weight: bolder;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 30px;
+}
+a:hover{
+    background-color: blueviolet;
+    transition-duration:2s ;
+}
+
+
+/*main*/
+#contenedor-estructural{
+    background-color: rgba(255,255,255,1);
+    display: block;
+    width: 90%; 
+    margin: 0 5%;
+    
+    
+}
+
+#sobre-nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: lawngreen;
+}
+
+/*cuadrado de cada integrante*/
+
+.contenedor-integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(252, 213, 255);
+    width: 40%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 3vh;
+}
+/*contenido dentro de .contenedor-integrantes*/
+.contenedor-titulo-integrante{
+    display: block;
+    float: left;
+    text-align: center;     
+    margin: 10px;
+    width: max-content;
+}
+
+.texto-integrante{
+    display: inline-block;
+    margin: 10px;
+    padding-left: 10px;
+    width:  200px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+h2{
+    display: inline-block;
+    max-width: max-content;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 0px;
+}
+/*-----------------------------*/
+/* imagenes de los contenedores de integrantes */
+.icono-de-nosotros{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.imagen-integrante{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+#nuestra-musica{
+    display: block;
+    
+}
+
+#contacto{
+    height: 100vh;
+}
+
+.contenedor-tab{
+    width: 100%;
+    height: 350px;
+}
+
+.contenedor-botones .contenedor-tab{
+    height: 15%;
+}
+
+.contenedor-tab .contenedor-botones button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: blue;
+}
+
+.contenedor-tab .contenedor-botones button:hover{
+
+}
